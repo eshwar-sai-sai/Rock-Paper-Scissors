@@ -1,0 +1,1 @@
+A classic game where you choose rock, paper, or scissors, and the computer randomly makes its move. The winner is decided by standard rules: rock beats scissors, scissors beats paper, and paper beats rock. The game tracks scores for both you and the computer until you quit.
