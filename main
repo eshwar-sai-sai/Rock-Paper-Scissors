@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+"""
+Simple Rock-Paper-Scissors game.
+
+How to play:
+- You choose rock, paper, or scissors.
+- The computer randomly chooses as well.
+- The winner is decided by the classic rules:
+  Rock beats Scissors, Scissors beats Paper, Paper beats Rock.
+- The game keeps score until you quit.
+"""
+
+import random
+
+def get_user_choice():
+    choices = ["rock", "paper", "scissors"]
+    while True:
+        choice = input("Enter rock, paper, or scissors: ").strip().lower()
+        if choice in choices:
+            return choice
+        print("Invalid choice. Try again.")
+
+def get_computer_choice():
+    return random.choice(["rock", "paper", "scissors"])
+
+def determine_winner(user, computer):
+    if user == computer:
+        return "draw"
+    elif (
+        (user == "rock" and computer == "scissors") or
+        (user == "scissors" and computer == "paper") or
+        (user == "paper" and computer == "rock")
+    ):
+        return "user"
+    else:
+        return "computer"
+
+def main():
+    print("Welcome to Rock-Paper-Scissors! Type Ctrl+C to quit.\n")
+    user_score = 0
+    computer_score = 0
+
+    while True:
+        user = get_user_choice()
+        computer = get_computer_choice()
+        print(f"Computer chose: {computer}")
+
+        winner = determine_winner(user, computer)
+        if winner == "draw":
+            print("It's a draw!\n")
+        elif winner == "user":
+            print("You win this round!\n")
+            user_score += 1
+        else:
+            print("Computer wins this round!\n")
+            computer_score += 1
+
+        print(f"Score -> You: {user_score} | Computer: {computer_score}\n")
+
+if __name__ == "__main__":
+    try:
+        main()
+    except (KeyboardInterrupt, EOFError):
+        print("\nGoodbye!")
